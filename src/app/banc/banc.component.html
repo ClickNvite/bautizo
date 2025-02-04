@@ -1,0 +1,99 @@
+<link
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+  rel="stylesheet"
+/>
+
+<div
+  class="bg-gradient-to-r from-white via-[#ece0e1] to-white h-80 py-12 w-full flex flex-col justify-start items-center text-center"
+>
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto"
+    rel="stylesheet"
+  />
+  <img
+    data-aos="fade-down"
+    data-aos-duration="1000"
+    src="assets/img/regalo.png"
+    class="w-14 drop-shadow-2xl"
+    alt=""
+  />
+  <p
+    data-aos="fade-down"
+    data-aos-duration="1000"
+    data-aos-delay="200"
+    class="p-4 mx-4 text-sm text-gray-600"
+    style="
+      font-family: 'Lore', sans-serif;
+      font-weight: 100;
+      font-style: normal;
+    "
+  >
+    Tu presencia en este día tan especial es el mayor regalo que podríamos
+    recibir. Sin embargo, si deseas acompañarnos con un detalle adicional, una
+    contribución en efectivo será muy apreciada. A continuación, te compartimos
+    los datos bancarios:
+  </p>
+  <swal
+    #deleteSwal
+    title="Datos Bancarios:"
+    html='
+  <h1 class="text-gray-900 text-center font-bold"> Novio: </h1>
+  <h1><strong class="text-[#92a58b]">Banco:</strong> Banco Pichincha </h1>
+  <h1><strong class="text-[#92a58b]">CTA:</strong> Ahorros </h1>
+  <h1><strong class="text-[#92a58b]">Titular:</strong> John Jaramillo</h1>
+  <h1><strong class="text-[#92a58b]">N° Cédula:</strong> 1105157158</h1>
+  <h1><strong class="text-[#92a58b]">N° Cuenta:</strong> 2205716862</h1>'
+    text="This cannot be undone"
+    [focusCancel]="true"
+  >
+  </swal>
+
+  <a
+    data-aos="zoom-in"
+    data-aos-duration="1000"
+    [swal]="deleteSwal"
+    target="_blank"
+    type="button"
+    class="mt-2 focus:outline-none text-white bg-black hover:bg-gray-700 focus:ring-4 focus:ring-[#b3c5ab] font-medium rounded-lg text-sm px-5 py-2.5 mb-2"
+    >Ver datos bancarios</a
+  >
+</div>
+
+<div
+  class="bg-cover bg-no-repeat bg-[url('https://images.unsplash.com/photo-1543342384-1f1350e27861?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFtaWxpYSUyMGJlYmV8ZW58MHx8MHx8fDA%3D')] bg-gray-400 bg-blend-multiply h-96 w-screen text-center flex flex-col gap-0 items-center justify-start pt-10"
+>
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto"
+    rel="stylesheet"
+  />
+
+  <p
+    data-aos="fade-down"
+    data-aos-anchor-placement="top-bottom"
+    data-aos-duration="1000"
+    data-aos-delay="200"
+    class="p-2 pb-4 px-6 text-sm text-white"
+    style="
+      font-family: 'Lore', sans-serif;
+      font-weight: 100;
+      font-style: normal;
+    "
+  >
+    Este bautizo será una fiesta especial. Prepárense para reír, bailar y
+    celebrar en comunión, de la única manera que solo nosotros lo podemos lograr.
+  </p>
+  <h1
+    data-aos="fade-down"
+    data-aos-anchor-placement="top-bottom"
+    data-aos-duration="1000"
+    data-aos-delay="200"
+    style="font-family: 'Dancing Script', sans-serif"
+    class="text-6xl text-white"
+  >
+    ¡No Falten!
+  </h1>
+</div>
