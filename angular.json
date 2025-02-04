@@ -14,8 +14,8 @@
           
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/boda",
-            "baseHref": "/boda/",
+            "outputPath": "dist/bautizo",
+            "baseHref": "/bautizo/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
