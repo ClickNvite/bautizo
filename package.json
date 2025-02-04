@@ -1,7 +1,7 @@
 {
-  "name": "boda",
+  "name": "bautizo",
   "version": "0.0.0",
-  "homepage": "https://ClickNvite.github.io/bautizo/build",
+  "homepage": "https://clicknvite.github.io/bautizo/build",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
